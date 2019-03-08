@@ -3,7 +3,7 @@
 }
 
 .fondo {
-    /*background: url('../img/fondos/thumbnail.jpeg') no-repeat center center fixed;*/
+    background: url('../img/fondos/thumbnail.jpeg') no-repeat center center fixed;
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
     /*max-width: 100%;*/

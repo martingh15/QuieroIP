@@ -34,7 +34,7 @@ class Layout extends React.Component {
                             {/*<Image className="logo" src={quieroIP}/>*/}
                         </div>
                     </Row>
-                </div>z
+                </div>
             </div>
         );
     }
