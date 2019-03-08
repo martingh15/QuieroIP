@@ -1,0 +1,35 @@
+.quieroIP {
+
+}
+
+.fondo {
+    /*background: url('../img/fondos/thumbnail.jpeg') no-repeat center center fixed;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*max-width: 100%;*/
+    /*height: 100%;*/
+    /*overflow-x: hidden;*/
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.contenedorInfo {
+    display:flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+
+}
+
+.logo {
+    /*position: absolute;*/
+    /*left: 0;*/
+    width:300px;
+    /*margin-left: 30%;*/
+    z-index: 10;
+    /*background-color: whi     te;*/
+}
