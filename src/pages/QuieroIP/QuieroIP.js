@@ -28,7 +28,13 @@ class Layout extends React.Component {
     render() {
         return (
             <div>
-                <Image className="imagenFondo" src={imagenRuben} fluid rounded/>
+                <div className="contacto">
+                    <p>martinghiotti@yahoo.com.ar</p>
+                    <p>3412548193</p>
+                </div>
+                <div className="whatsapp">
+
+                </div>
             </div>
         );
     }

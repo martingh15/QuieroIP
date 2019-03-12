@@ -1,29 +1,38 @@
-.quieroIP {
-    background-color: #293065;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-.imagenFondo {
-    position: relative;
-    width: -webkit-fill-available;
-    /*width: 90%;*/
-    /*margin: 0 auto;*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
+body, html {
+    min-height: 100%;
 }
 
-@media screen and (max-width: 860px) {
-    .imagenFondo {
-        object-fit: cover;
-        object-position: 0 -150%;
+body {
+    background-image: url('../img/fondos/thumbnail.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #030015;
+}
+
+p {
+    color: #FFF;
+    text-shadow: 5px 5px 0 rgb(0, 0, 0, .9);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    font-size:5vw;
+}
+
+.contacto {
+    margin-top: 17%;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-size: 230% 90%;
+    }
+    .contacto {
+        margin-top: 90%;
+    }
+
+    p {
+        font-size:7vw;
     }
 }
-
-/*@media screen and (max-width: 630px) {*/
-    /*.fondo {*/
-
-    /*}*/
-/*}*/
