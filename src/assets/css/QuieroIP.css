@@ -1,35 +1,29 @@
 .quieroIP {
-
-}
-
-.fondo {
-    background: url('../img/fondos/thumbnail.jpeg') no-repeat center center fixed;
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*max-width: 100%;*/
-    /*height: 100%;*/
-    /*overflow-x: hidden;*/
-    width: 70%;
-    height: 100%;
-    position: fixed;
+    background-color: #293065;
+    position: absolute;
     top: 0;
+    right: 0;
+    bottom: 0;
     left: 0;
-    z-index: -100;
+}
+.imagenFondo {
+    position: relative;
+    width: -webkit-fill-available;
+    /*width: 90%;*/
+    /*margin: 0 auto;*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
 }
 
-.contenedorInfo {
-    display:flex;
-    align-items: center;
-    align-self: center;
-    flex-direction: column;
-
+@media screen and (max-width: 860px) {
+    .imagenFondo {
+        object-fit: cover;
+        object-position: 0 -150%;
+    }
 }
 
-.logo {
-    /*position: absolute;*/
-    /*left: 0;*/
-    width:300px;
-    /*margin-left: 30%;*/
-    z-index: 10;
-    /*background-color: whi     te;*/
-}
+/*@media screen and (max-width: 630px) {*/
+    /*.fondo {*/
+
+    /*}*/
+/*}*/

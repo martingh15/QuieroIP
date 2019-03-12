@@ -13,6 +13,7 @@ import opcion1 from "../../assets/img/fondos/opcion1.jpg";
 import opcion2 from "../../assets/img/fondos/opcion2.jpg";
 import quieroIP from "../../assets/img/fondos/originales rar/QuieroIP Positivo.png";
 import imagenFondo from "../../assets/img/fondos/imagenFondo.jpg";
+import imagenRuben from "../../assets/img/fondos/thumbnail.jpeg";
 
 class Layout extends React.Component {
 
@@ -26,15 +27,8 @@ class Layout extends React.Component {
 
     render() {
         return (
-            <div className="QuieroIP">
-                <div className="fondo">
-                    {/*<Image className="fondo" src={imagenFondo} fluid rounded/>*/}
-                    <Row className="contenedorInfo">
-                        <div className="">
-                            {/*<Image className="logo" src={quieroIP}/>*/}
-                        </div>
-                    </Row>
-                </div>
+            <div>
+                <Image className="imagenFondo" src={imagenRuben} fluid rounded/>
             </div>
         );
     }
