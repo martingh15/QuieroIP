@@ -1,0 +1,48 @@
+body, html {
+    min-height: 100%;
+}
+
+body {
+    background-image: url('../img/fondos/thumbnail.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #030015;
+
+}
+
+p {
+    color: #FFF;
+    text-shadow: 5px 5px 0 rgb(0, 0, 0, .9);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    font-size:5vw;
+}
+
+.contacto {
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-size: 190% 102%;
+    }
+    p {
+        font-size:8vw;
+    }
+    /*.contacto {*/
+        /*margin-top: 50%;*/
+    /*}*/
+
+}
+
+@media screen and (max-width: 400px) {
+    /*.contacto {*/
+        /*margin-top: 60%;*/
+    /*}*/
+}
