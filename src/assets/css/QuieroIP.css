@@ -9,6 +9,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #030015;
+
 }
 
 p {
@@ -21,18 +22,27 @@ p {
 }
 
 .contacto {
-    margin-top: 17%;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    text-align:center;
 }
 
 @media screen and (max-width: 500px) {
     body {
-        background-size: 230% 90%;
+        background-size: 190% 102%;
     }
-    .contacto {
-        margin-top: 90%;
-    }
-
     p {
-        font-size:7vw;
+        font-size:8vw;
     }
+    /*.contacto {*/
+        /*margin-top: 50%;*/
+    /*}*/
+
+}
+
+@media screen and (max-width: 400px) {
+    /*.contacto {*/
+        /*margin-top: 60%;*/
+    /*}*/
 }

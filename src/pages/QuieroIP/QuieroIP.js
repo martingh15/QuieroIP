@@ -29,11 +29,7 @@ class Layout extends React.Component {
         return (
             <div>
                 <div className="contacto">
-                    <p>martinghiotti@yahoo.com.ar</p>
-                    <p>3412548193</p>
-                </div>
-                <div className="whatsapp">
-
+                    <p>info@quieroip.com</p>
                 </div>
             </div>
         );
